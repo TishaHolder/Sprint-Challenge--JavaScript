@@ -89,6 +89,7 @@ class CuboidMakerClass {
           super(cuboidMakerClassAttributes);
 
       }
+      
 
       surfaceArea() {
           return 6 * (this.length * this.length); //formula: 6s(squared)
