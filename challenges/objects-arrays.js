@@ -44,7 +44,7 @@ const velociraptor = {
 console.log(`tyrannosaurus' weight: ${tyrannosaurus.weight}`);
 
 // What was the diet of a velociraptor?
-console.log(`velociraptor's weight: ${velociraptor.diet}`);
+console.log(`velociraptor's diet: ${velociraptor.diet}`);
 
 // How long was a stegosaurus?
 console.log(`stegosaurus' length: ${stegosaurus.length}`);
@@ -101,7 +101,7 @@ graduates.forEach ( (graduate, index) => {
 
 });
 
-console.log(`First Name & Emails of all the graduates:`);
+console.log(`First Names & Emails of all the graduates:`);
 console.log(contactInfo);
 
 
@@ -110,7 +110,7 @@ const uni = [];
 
 universities.forEach ( (element, index) => {
   if(universities[index].includes("Uni")) {
-      //uni[index] = universities[index];//this creates empty array values in the false indexes
+      //uni[index] = universities[index];//this creates null array values in the empty indexes
       uni.push(universities[index]);
   }
 });
